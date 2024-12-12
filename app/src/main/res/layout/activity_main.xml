@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Taustakuva -->
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+    <!-- Sisältö (tekstikentät, napit jne.) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <!-- Kaupungin nimi -->
+        <TextView
+            android:id="@+id/cityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/city_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+
+        <!-- Lämpötila -->
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/temperature"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+
+        <!-- Sääkuvaus -->
+        <TextView
+            android:id="@+id/weatherDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weather_description"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:padding="8dp" />
+
+        <!-- Sääikoni -->
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <!-- Siirtyminen toiseen näkymään -->
+        <Button
+            android:id="@+id/navigateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/navigate_to_second_view" />
+
+        <!-- Sää tietojen jakaminen -->
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share_weather"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

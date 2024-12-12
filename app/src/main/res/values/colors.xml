@@ -1,0 +1,14 @@
+<resources>
+    <!-- Värit, joita käytetään sovelluksessa -->
+    <color name="colorPrimary">#6200EE</color> <!-- Pääväri -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Päävärin tummempi sävy -->
+    <color name="colorSecondary">#03DAC5</color> <!-- Toissijainen väri -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Taustaväri -->
+    <color name="colorSurface">#FFFFFF</color> <!-- Pinnat kuten kortit ja pohja -->
+    <color name="colorError">#B00020</color> <!-- Virheväri -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Tekstin väri päävärin päällä -->
+    <color name="colorOnSecondary">#000000</color> <!-- Tekstin väri toissijaisen päällä -->
+    <color name="colorOnBackground">#000000</color> <!-- Tekstin väri taustan päällä -->
+    <color name="colorOnSurface">#000000</color> <!-- Tekstin väri pinnalla -->
+    <color name="colorOnError">#FFFFFF</color> <!-- Tekstin väri virheen päällä -->
+</resources>

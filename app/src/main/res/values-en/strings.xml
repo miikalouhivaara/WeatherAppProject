@@ -1,0 +1,16 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">WeatherApp</string>
+    <!-- OpenWeatherMap API key -->
+    <string name="weather_api_key">54069f03d4c01ff938d9e4a62f8fa7e6</string>
+
+    <!-- UI texts -->
+    <string name="city_name">City</string>
+    <string name="temperature">Temperature</string>
+    <string name="weather_description">Weather Description</string>
+    <string name="navigate_to_second_view">Navigate to Second View</string>
+    <string name="share_weather">Share Weather Info</string>
+    <string name="button_helsinki">Helsinki</string>
+    <string name="button_espoo">Espoo</string>
+    <string name="button_tampere">Tampere</string>
+</resources>

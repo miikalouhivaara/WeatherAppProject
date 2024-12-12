@@ -1,0 +1,16 @@
+<resources>
+    <!-- Sovelluksen nimi -->
+    <string name="app_name">SääSovellus</string>
+    <!-- OpenWeatherMap API-avain -->
+    <string name="weather_api_key">54069f03d4c01ff938d9e4a62f8fa7e6</string>
+
+    <!-- Tekstit käyttöliittymään -->
+    <string name="city_name">Kaupunki</string>
+    <string name="temperature">Lämpötila</string>
+    <string name="weather_description">Sään kuvaus</string>
+    <string name="navigate_to_second_view">Siirry toiseen näkymään</string>
+    <string name="share_weather">Jaa säätiedot</string>
+    <string name="button_helsinki">Helsinki</string>
+    <string name="button_espoo">Espoo</string>
+    <string name="button_tampere">Tampere</string>
+</resources>
